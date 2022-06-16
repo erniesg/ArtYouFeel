@@ -23,7 +23,7 @@ def emo_search(query):
             im.show()
 
 def main():
-    '''Ask user for a city and display weather forecast'''
+    '''Ask user for a keyword to be used as query'''
     query = input("Show me\n> ")
     emo = emo_search(query)
 
